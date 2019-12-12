@@ -21,7 +21,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          _/   DE LYS   \_
+          DE LYS
         </p>
         <Particles className='particles' params={particlesOptions} />
         <a
