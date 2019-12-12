@@ -23,6 +23,9 @@ function App() {
         <p>
           DE LYS
         </p>
+        <p>
+          creating beauty in light
+        </p>
         <Particles className='particles' params={particlesOptions} />
         <a
           className="App-link"
