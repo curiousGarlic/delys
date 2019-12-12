@@ -1,15 +1,29 @@
 import React from 'react';
 import logo from './logo.png';
 import './App.css';
+import Particles from 'react-particles-js';
+
+const particlesOptions = {
+  particles: {
+    "number": {
+      "value": 25,
+      "density": {
+        "enable": true,
+        "value_area": 800
+      }
+    }
+  }
+}
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <h3>
-          DELYS
-        </h3>
+        <p>
+          DE LYS
+        </p>
+        <Particles className='particles' params={particlesOptions} />
         <a
           className="App-link"
           href="https://ens0.herokuapp.com/"
