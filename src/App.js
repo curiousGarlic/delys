@@ -27,6 +27,9 @@ function App() {
           creating beauty with light
         </p>
         <Particles className='particles' params={particlesOptions} />
+        <p>
+          work in progress
+        </p>
         <a
           className="App-link"
           href="https://ens0.herokuapp.com/"
