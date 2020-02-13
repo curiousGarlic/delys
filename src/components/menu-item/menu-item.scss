@@ -5,7 +5,7 @@
    display: flex;
   align-items: center;
   justify-content: center;
-  border: 1px solid antiquewhite;
+  border: 1px solid gold;
   margin: 0 7.5px 15px;
   overflow: hidden;
 
@@ -44,7 +44,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    border: 1px solid black;
+    border: 1px solid gold;
     background-color: white;
     opacity: 0.6;
     position: absolute;
@@ -53,12 +53,13 @@
       font-weight: bold;
       margin-bottom: 6px;
       font-size: 22px;
-      color: #4a4a4a;
+      color: brown;
     }
 
     .subtitle {
       font-weight: lighter;
-      font-size: 16px;
+      font-size: 18px;
+      color: brown;
     }
   }
 }

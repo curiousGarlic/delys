@@ -1,9 +1,20 @@
 body {
-  background-color: midnightblue;
-  color: antiquewhite;
+  background-color:  rgb(20, 0, 0);;
+  color: gold;
   font-family: Montserrat, "Open Sans", Lato, Roboto, "Proxima Nova";
 }
 
 h1 {
   text-align: center;
+}
+
+img {
+  width: 800px;
+  display: flex;
+  /* align-items: center; */
+  /* justify-content: center; */
+  margin: 0 auto;
+  border: 1px solid gold;
+  border-radius: 10px;
+  
 }
