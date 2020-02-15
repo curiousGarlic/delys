@@ -7,25 +7,25 @@ const SHOP_DATA = [
         {
           id: 1,
           name: 'Brown Brim',
-          imageUrl: 'https://i.ibb.co/ZYW3VTp/brown-brim.png',
+          imageUrl: 'https://images.pexels.com/photos/3324006/pexels-photo-3324006.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
           price: 25
         },
         {
           id: 2,
           name: 'Blue Beanie',
-          imageUrl: 'https://i.ibb.co/ypkgK0X/blue-beanie.png',
+          imageUrl: 'https://images.pexels.com/photos/2736542/pexels-photo-2736542.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
           price: 18
         },
         {
           id: 3,
           name: 'Brown Cowboy',
-          imageUrl: 'https://i.ibb.co/QdJwgmp/brown-cowboy.png',
+          imageUrl: 'https://images.pexels.com/photos/2970287/pexels-photo-2970287.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260',
           price: 35
         },
         {
           id: 4,
           name: 'Grey Brim',
-          imageUrl: 'https://i.ibb.co/RjBLWxB/grey-brim.png',
+          imageUrl: 'https://images.pexels.com/photos/957056/advent-wreath-christmas-wreath-candles-decoration-957056.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
           price: 25
         },
         {
@@ -68,25 +68,25 @@ const SHOP_DATA = [
         {
           id: 1,
           name: 'Adidas NMD',
-          imageUrl: 'https://i.ibb.co/0s3pdnc/adidas-nmd.png',
+          imageUrl: 'https://cdn.pixabay.com/photo/2019/12/09/13/17/candle-4683512_1280.jpg',
           price: 220
         },
         {
           id: 2,
           name: 'Adidas Yeezy',
-          imageUrl: 'https://i.ibb.co/dJbG1cT/yeezy.png',
+          imageUrl: 'https://cdn.pixabay.com/photo/2018/01/27/17/43/heart-3111760_1280.jpg',
           price: 280
         },
         {
           id: 3,
           name: 'Black Converse',
-          imageUrl: 'https://i.ibb.co/bPmVXyP/black-converse.png',
+          imageUrl: 'https://cdn.pixabay.com/photo/2015/02/06/03/29/mason-625728_1280.jpg',
           price: 110
         },
         {
           id: 4,
           name: 'Nike White AirForce',
-          imageUrl: 'https://i.ibb.co/1RcFPk0/white-nike-high-tops.png',
+          imageUrl: 'https://cdn.pixabay.com/photo/2015/11/30/10/07/advent-wreath-1069961_1280.jpg',
           price: 160
         },
         {
@@ -123,25 +123,25 @@ const SHOP_DATA = [
         {
           id: 1,
           name: 'Black Jean Shearling',
-          imageUrl: 'https://i.ibb.co/XzcwL5s/black-shearling.png',
+          imageUrl: 'https://cdn.pixabay.com/photo/2018/12/23/18/42/a-postcard-3891664_1280.jpg',
           price: 125
         },
         {
           id: 2,
           name: 'Blue Jean Jacket',
-          imageUrl: 'https://i.ibb.co/mJS6vz0/blue-jean-jacket.png',
+          imageUrl: 'https://cdn.pixabay.com/photo/2015/12/03/15/24/christmas-1075128_1280.jpg',
           price: 90
         },
         {
           id: 3,
           name: 'Grey Jean Jacket',
-          imageUrl: 'https://i.ibb.co/N71k1ML/grey-jean-jacket.png',
+          imageUrl: 'https://cdn.pixabay.com/photo/2017/02/24/12/18/apartment-2094654_1280.jpg',
           price: 90
         },
         {
           id: 4,
           name: 'Brown Shearling',
-          imageUrl: 'https://i.ibb.co/s96FpdP/brown-shearling.png',
+          imageUrl: 'https://cdn.pixabay.com/photo/2020/01/14/18/40/wedding-4765939_1280.jpg',
           price: 165
         },
         {
@@ -159,27 +159,27 @@ const SHOP_DATA = [
       items: [
         {
           id: 1,
-          name: 'Blue Tanktop',
-          imageUrl: 'https://i.ibb.co/7CQVJNm/blue-tank.png',
+          name: 'Brown Brim',
+          imageUrl: 'https://images.pexels.com/photos/3324006/pexels-photo-3324006.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
           price: 25
         },
         {
           id: 2,
-          name: 'Floral Blouse',
-          imageUrl: 'https://i.ibb.co/4W2DGKm/floral-blouse.png',
-          price: 20
+          name: 'Blue Beanie',
+          imageUrl: 'https://images.pexels.com/photos/2736542/pexels-photo-2736542.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
+          price: 18
         },
         {
           id: 3,
-          name: 'Floral Dress',
-          imageUrl: 'https://i.ibb.co/KV18Ysr/floral-skirt.png',
-          price: 80
+          name: 'Brown Cowboy',
+          imageUrl: 'https://images.pexels.com/photos/2970287/pexels-photo-2970287.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260',
+          price: 35
         },
         {
           id: 4,
-          name: 'Red Dots Dress',
-          imageUrl: 'https://i.ibb.co/N3BN1bh/red-polka-dot-dress.png',
-          price: 80
+          name: 'Grey Brim',
+          imageUrl: 'https://images.pexels.com/photos/957056/advent-wreath-christmas-wreath-candles-decoration-957056.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
+          price: 25
         },
         {
           id: 5,
@@ -208,27 +208,27 @@ const SHOP_DATA = [
       items: [
         {
           id: 1,
-          name: 'Camo Down Vest',
-          imageUrl: 'https://i.ibb.co/xJS0T3Y/camo-vest.png',
-          price: 325
+          name: 'Adidas NMD',
+          imageUrl: 'https://cdn.pixabay.com/photo/2019/12/09/13/17/candle-4683512_1280.jpg',
+          price: 220
         },
         {
           id: 2,
-          name: 'Floral T-shirt',
-          imageUrl: 'https://i.ibb.co/qMQ75QZ/floral-shirt.png',
-          price: 20
+          name: 'Adidas Yeezy',
+          imageUrl: 'https://cdn.pixabay.com/photo/2018/01/27/17/43/heart-3111760_1280.jpg',
+          price: 280
         },
         {
           id: 3,
-          name: 'Black & White Longsleeve',
-          imageUrl: 'https://i.ibb.co/55z32tw/long-sleeve.png',
-          price: 25
+          name: 'Black Converse',
+          imageUrl: 'https://cdn.pixabay.com/photo/2015/02/06/03/29/mason-625728_1280.jpg',
+          price: 110
         },
         {
           id: 4,
-          name: 'Pink T-shirt',
-          imageUrl: 'https://i.ibb.co/RvwnBL8/pink-shirt.png',
-          price: 25
+          name: 'Nike White AirForce',
+          imageUrl: 'https://cdn.pixabay.com/photo/2015/11/30/10/07/advent-wreath-1069961_1280.jpg',
+          price: 160
         },
         {
           id: 5,
