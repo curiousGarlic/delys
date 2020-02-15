@@ -1,10 +1,11 @@
 body {
   background-color:  rgb(20, 0, 0);;
-  color: gold;
+  color: antiquewhite;
   font-family: Montserrat, "Open Sans", Lato, Roboto, "Proxima Nova";
+  padding: 20px 80px;
 }
 
-h1 {
+h1, h3 {
   text-align: center;
 }
 
