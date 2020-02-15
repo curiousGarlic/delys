@@ -1,11 +1,13 @@
 import React from 'react';
 import { Switch, Route, } from 'react-router-dom';
 
-import './App.css';
+import Header from './components/header/header';
 import HomePage from './pages/homepage/homepage';
 import ShopPage from './pages/shop/shop';
 import soycandles from './assets/soycandles.jpg';
 import gelcandles from './assets/gelcandles.jpg';
+
+import './App.css';
 
 
 const SoyCandles = () => (
@@ -25,6 +27,7 @@ class App extends React.Component {
     render() {
         return (
             <div>
+                <Header />
                 <h3>ДОМ ПОДАРКОВ</h3>
                 <h1>DE LYS</h1>
                 <Switch>
