@@ -4,8 +4,8 @@ export const MenuItemContainer = styled.div`
 	height: ${({ size }) => (size ? '380px' : '240px')};
 	min-width: 30%;
 	overflow: hidden;
-	flex: 1 1 auto;
-	display: flex;
+  display: flex;
+  flex: 1 1 auto;
 	align-items: center;
 	justify-content: center;
 	border: 1px solid black;

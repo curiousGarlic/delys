@@ -1,6 +1,8 @@
 body {
   font-family: 'Open Sans Condensed';
-  padding: 20px 40px;
+  margin: 0 auto;
+  padding: 0px 0px;
+  background: rgb(255, 230, 230);
 }
 
 a {

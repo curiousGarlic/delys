@@ -2,11 +2,13 @@ import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 
 export const HeaderContainer = styled.div`
-  height: 75px;
+  height: 125px;
   width: 100%;
   display: flex;
   justify-content: space-between;
   margin-bottom: 25px;
+  padding: 25px 40px;
+  background: linear-gradient(180deg, rgba(255, 255, 255,1) 0%, rgb(255, 255, 255,0.1) 100%);
 `;
 
 export const LogoContainer = styled(Link)`
