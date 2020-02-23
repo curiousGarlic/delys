@@ -3,14 +3,14 @@ import 'firebase/firestore';
 import 'firebase/auth';
 
 const config = {
-  apiKey: "AIzaSyAO2T5GzuxddPAjoUdyFE1BQOsq1qSymz4",
-  authDomain: "delys-gifts.firebaseapp.com",
-  databaseURL: "https://delys-gifts.firebaseio.com",
-  projectId: "delys-gifts",
-  storageBucket: "delys-gifts.appspot.com",
-  messagingSenderId: "746304938506",
-  appId: "1:746304938506:web:c2e781129d130c536ff5f3",
-  measurementId: "G-6TM6DVPL40"
+  apiKey: "AIzaSyC6Kjnvn1dQrYDMG3P4XFocmZXN06LDV_4",
+  authDomain: "delysartstudio.firebaseapp.com",
+  databaseURL: "https://delysartstudio.firebaseio.com",
+  projectId: "delysartstudio",
+  storageBucket: "delysartstudio.appspot.com",
+  messagingSenderId: "921975211944",
+  appId: "1:921975211944:web:1f834a9bad24ae16e47f9d",
+  measurementId: "G-1NQ9J6X5N7"
 };
 
 firebase.initializeApp(config);
@@ -39,6 +39,18 @@ export const createUserProfileDocument = async (userAuth, additionalData) => {
 
   return userRef;
 };
+
+export const addCollectionAndDocuments = async (collectionKey, objectsToAdd) => {
+  const collectionRef = firestore.collection(collectionKey);
+
+  const batch = firestore.batch();
+  objectsToAdd.forEach(obj => {
+    const newDocRef = collectionRef.doc();
+    batch.set(newDocRef, obj);
+  })
+
+  return await batch.commit()
+}; 
 
 export const auth = firebase.auth();
 export const firestore = firebase.firestore();

@@ -17,10 +17,10 @@ const SHOP_DATA = {
         price: 18
       },
       {
-        id: 3,
-        name: 'Tea Rose Tenderness',
-        imageUrl: 'https://scontent.fiev22-2.fna.fbcdn.net/v/t1.0-9/80433000_142192987237222_4047485383414382592_o.jpg?_nc_cat=107&_nc_sid=110474&_nc_ohc=9DICs3-aTaYAX8-mbQ4&_nc_ht=scontent.fiev22-2.fna&oh=06f60057fe497149b6e5341c40eca4c0&oe=5F01E9C3',
-        price: 9
+        id: 31,
+        name: 'Ocean calls',
+        imageUrl: 'https://scontent.fiev22-1.fna.fbcdn.net/v/t1.0-9/86272160_158687892254398_287796644584357888_o.jpg?_nc_cat=109&_nc_sid=110474&_nc_ohc=rIB0NMeq6jsAX9vy8W1&_nc_ht=scontent.fiev22-1.fna&oh=218d2288462c9ed75f56122f105bff14&oe=5EBDC7E3',
+        price: 20
       },
       {
         id: 4,
@@ -187,12 +187,6 @@ const SHOP_DATA = {
         name: 'Love bomb',
         imageUrl: 'https://scontent.fiev22-2.fna.fbcdn.net/v/t1.0-9/83997676_155247985931722_337861575115276288_o.jpg?_nc_cat=101&_nc_sid=110474&_nc_ohc=xlBasfF1434AX9gvMns&_nc_ht=scontent.fiev22-2.fna&oh=69914a5cba6697b5bd02553ed2ffb985&oe=5EC334E9',
         price: 25
-      },
-      {
-        id: 31,
-        name: 'Ocean calls',
-        imageUrl: 'https://scontent.fiev22-1.fna.fbcdn.net/v/t1.0-9/86272160_158687892254398_287796644584357888_o.jpg?_nc_cat=109&_nc_sid=110474&_nc_ohc=rIB0NMeq6jsAX9vy8W1&_nc_ht=scontent.fiev22-1.fna&oh=218d2288462c9ed75f56122f105bff14&oe=5EBDC7E3',
-        price: 20
       }
     ]
   }
