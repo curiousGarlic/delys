@@ -3,14 +3,14 @@ import 'firebase/firestore';
 import 'firebase/auth';
 
 const config = {
-  apiKey: "AIzaSyC1lgXXTQt23w084P-X1VcjaJINk_SkChc",
-  authDomain: "ecommerce-379b3.firebaseapp.com",
-  databaseURL: "https://ecommerce-379b3.firebaseio.com",
-  projectId: "ecommerce-379b3",
-  storageBucket: "ecommerce-379b3.appspot.com",
-  messagingSenderId: "278588882210",
-  appId: "1:278588882210:web:78b1e66577e0585b27397b",
-  measurementId: "G-9B3FSY1LZW"
+  apiKey: "AIzaSyAO2T5GzuxddPAjoUdyFE1BQOsq1qSymz4",
+  authDomain: "delys-gifts.firebaseapp.com",
+  databaseURL: "https://delys-gifts.firebaseio.com",
+  projectId: "delys-gifts",
+  storageBucket: "delys-gifts.appspot.com",
+  messagingSenderId: "746304938506",
+  appId: "1:746304938506:web:c2e781129d130c536ff5f3",
+  measurementId: "G-6TM6DVPL40"
 };
 
 firebase.initializeApp(config);
