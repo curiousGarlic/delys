@@ -13,7 +13,7 @@ const StripeCheckoutButton = ({ price }) => {
   return (
     <StripeCheckout
       label='Pay Now'
-      name='Delys Art Studio'
+      name='XWEAR'
       billingAddress
       shippingAddress
       image=''
