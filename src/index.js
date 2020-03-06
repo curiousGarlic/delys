@@ -7,6 +7,7 @@ import { PersistGate } from 'redux-persist/integration/react';
 import { store, persistor } from './redux/store';
 
 import './index.css';
+import './assets/fonts/RoxboroughCF-Regular.ttf'
 import App from './App';
 
 ReactDOM.render(
