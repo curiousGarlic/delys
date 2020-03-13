@@ -1,0 +1,57 @@
+Arguments: 
+  /usr/local/bin/node /Users/jamshidazizov/.yarn/bin/yarn.js
+
+PATH: 
+  /Users/jamshidazizov/.yarn/bin:/Users/jamshidazizov/.config/yarn/global/node_modules/.bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/go/bin:/Users/jamshidazizov/.yarn/bin:/Users/jamshidazizov/.config/yarn/global/node_modules/.bin:/usr/local/sbin
+
+Yarn version: 
+  1.22.1
+
+Node version: 
+  12.16.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  SyntaxError: /Users/jamshidazizov/Git/delys/package.json: Unexpected token / in JSON at position 49
+      at JSON.parse (<anonymous>)
+      at /Users/jamshidazizov/.yarn/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/Users/jamshidazizov/.yarn/lib/cli.js:310:30)
+      at /Users/jamshidazizov/.yarn/lib/cli.js:321:13
+
+npm manifest: 
+  {
+  	"name": "xwear-server",
+  	"version": "1.0.0",
+  	// "engines": {
+  	// 	"node": "v12.16.0",
+  	// 	"npm": "6.13.4"
+  	// },
+  	"scripts": {
+  		"client": "cd client && yarn start",
+  		"server": "nodemon server.js",
+  		"build": "cd client && npm run build",
+  		"dev": "concurrently --kill-others-on-fail \"yarn server\" \"yarn client\"",
+  		"start": "node server.js",
+  		"heroku-postbuild": "cd client && npm install && npm install --only=dev --no-shrinkwrap && npm run build"
+  	},
+  	"dependencies": {
+  		"body-parser": "^1.18.3",
+  		"compression": "1.7.4",
+  		"cors": "2.8.5",
+  		"dotenv": "7.0.0",
+  		"express": "^4.16.4",
+  		"stripe": "6.28.0"
+  	},
+  	"devDependencies": {
+  		"concurrently": "^4.0.1"
+  	}
+  	}
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
