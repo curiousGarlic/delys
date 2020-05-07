@@ -1,2 +1,9 @@
 # DELYS
-## Love follows light as light follows love.
+
+## An e-commerce website for handcrafted gifts.
+
+### Main tech-stack
+
+- React
+- Redux
+- Firebase
